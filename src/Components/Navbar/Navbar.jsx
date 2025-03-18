@@ -60,7 +60,7 @@ export default function Navbar({ cart, setCart }) {
                             </div>
                         </div>
                         {/* Cart */}
-                        <div className="relative group hidden md:block" onClick={() => setIsCartOpen(!isCartOpen)} id="cart">
+                        <div className="relative group" onClick={() => setIsCartOpen(!isCartOpen)} id="cart">
                             <button type="button" className="cart size-13 flex items-center justify-center only-icon rounded-2xl bg-gray-200 text-slate-500 dark:bg-white/5 dark:text-white cursor-pointer" data-drawer-target="drawer-left-example" data-drawer-show="drawer-left-example" data-drawer-placement="left" aria-controls="drawer-left-example">
                                 <div className='text-2xl'>
                                     <LuShoppingCart />
