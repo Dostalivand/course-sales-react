@@ -153,7 +153,6 @@ export default function Navbar({ cart, setCart }) {
                         </div>
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
                             <li className='flex items-center cursor-pointer text-zinc-700 hover:text-orange-400 transition-colors duration-300 dark:text-gray-200 dark:hover:text-orange-300 gap-1'>
-                                <span className='text-lg'><HiMiniHome /></span>
                                 <Link to="/" className="block py-2 px-1 text-base rounded-sm md:bg-transparent md:p-0 ">صفحه اصلی</Link>
                             </li>
                             <li>
